@@ -49,35 +49,3 @@ A premium full-stack web application that revolutionizes fitness tracking, gym m
 
 Install dependenciesBash# Root (for concurrent frontend & backend)
 npm install
-
-# Or separately
-cd frontend && npm install
-cd ../backend && npm install
-Environment Variables
-Create .env files in both frontend and backend directories (see .env.example)
-Run the applicationBashnpm run dev
-Frontend: http://localhost:3000
-Backend: http://localhost:5000
-
-
-📋 Admin Access
-To create an Admin account:
-
-Go to Register
-Select Admin role
-Enter Admin Secret Key: aegis-admin-key (change in production)
-
-🗂️ Project Structure
-textaegisfit/
-├── frontend/          # React + Vite App
-├── backend/           # Express + Node.js Server
-├── implementation_plan.md
-├── walkthrough.md
-└── README.md
-🎯 Key Highlights
-
-Multi-role architecture (User, Gym, Coach, Admin)
-Beautiful premium UI/UX with glassmorphism
-Secure authentication & role-based access
-Fully responsive design
-Gamification elements (XP, Badges, Leaderboards)
